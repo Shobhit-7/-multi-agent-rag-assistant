@@ -50,4 +50,3 @@ torch==2.8.0
 # --- Rich Console ---
 rich==14.1.0
 
-langchain-huggingface==0.3.1
