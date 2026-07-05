@@ -1,0 +1,39 @@
+# =============================================================================
+# Multi-Agent System — Python Dependencies
+# Stack: LangChain LCEL (Runnables) + LangGraph ReAct Agents + Mistral AI
+# Tools: Tavily Search + Beautiful Soup (web scraping)
+# =============================================================================
+
+# --- LangChain Core & LCEL Pipelines ---
+langchain==1.3.4
+langchain-core==1.4.2
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+
+# --- Mistral LLM Provider ---
+langchain-mistralai==1.1.4
+
+# --- Tavily Search Tool ---
+langchain-tavily==0.2.18
+tavily-python==0.7.25
+
+# --- Beautiful Soup Web Scraping Tool ---
+beautifulsoup4==4.15.0
+lxml==6.1.1
+requests==2.34.2
+
+# --- ReAct Agents & Multi-Agent Orchestration (LangGraph) ---
+langgraph==1.2.4
+langgraph-checkpoint==4.1.1
+langgraph-prebuilt==1.1.0
+
+# --- Configuration & Data Validation ---
+python-dotenv==1.2.2
+pydantic==2.13.4
+pydantic-settings==2.14.1
+
+# --- HTTP Clients (used by LangChain, Mistral, and scraping tools) ---
+httpx==0.28.1
+
+# --- Observability & Debugging (optional but recommended for agent tracing) ---
+langsmith==0.8.11
